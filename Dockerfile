@@ -29,7 +29,7 @@ CMD ["mkdir -p /tmp/attachments /tmp/saved_notes && \
       done) & \
       ntfy serve \
         --listen-http :80 \
-        --base-url https://hardik-relay.onrender.com \
+        --base-url https://hardik-relay-2.onrender.com \
         --cache-file /tmp/cache.db \
         --cache-duration 3600h \
         --attachment-cache-dir /tmp/attachments \
